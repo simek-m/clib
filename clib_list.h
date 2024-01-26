@@ -5,9 +5,9 @@
 
 #define CLIST_OK (0)
 
-typedef struct node_t node_t;
+typedef struct node node_t;
 
-typedef struct clist_t {
+typedef struct clist {
   node_t *head;
   node_t *tail;
   size_t len;
